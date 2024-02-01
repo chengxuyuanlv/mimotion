@@ -82,8 +82,8 @@ def getBeijinTime():
         print("获取到当前时间的小时为：(" + str(current_time) + ")")
         min_1 = 1600 * current_time
         max_1 = 1800 * current_time
-        min_1 = int(K * min_1)
-        max_1 = int(K * max_1)
+        # min_1 = int(K * min_1)
+        # max_1 = int(K * max_1)
     else:
         print("获取北京时间失败")
         return

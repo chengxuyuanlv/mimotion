@@ -80,8 +80,8 @@ def getBeijinTime():
         # max_1 = 3500 * current_time
         current_time = datetime.datetime.now().strftime("%H")
         print("获取到当前时间的小时为：(" + str(current_time) + ")")
-        min_1 = 1600 * min_ratio
-        max_1 = 1800 * max_ratio
+        min_1 = 1600 * current_time
+        max_1 = 1800 * current_time
         min_1 = int(K * min_1)
         max_1 = int(K * max_1)
     else:
